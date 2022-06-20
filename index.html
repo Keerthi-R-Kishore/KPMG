@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <main>
+        <div class="homescreen-container">
+            <div class="rabbit-icon-container">
+                <img class="rabbit-icon" src="assests/rabbit-icon-logo-design-creative-rabbit-logo-design-rabbit-icon-logo-design-creative-rabbit-logo-des.svg" alt="Rabbit icon">                              
+            </div>
+            <div class="people-icon-container">
+                <img class="people-icon" src="assests/icons/icons8-team-material-filled/icons8-team-96.png" alt="people icon">
+                <div class="people-modal">
+                    <div class="people-modal-content">
+                        <img src="assests/Gif Part 1/People.gif" alt="people-gif">
+                    </div>
+                </div>                  
+            </div>
+            <div class="smartphone-icon-container">
+                <img class="smartphone-icon" src="assests/icons/icons8-smartphone-approve-material-filled/icons8-smartphone-approve-96.png" alt="smartphone icon">
+                <div class="smartphone-modal">
+                    <div class="smartphone-modal-content">
+                        <img src="assests/Gif Part 3/Build awesome things.gif" alt="smartphone-gif">
+                    </div>
+                </div>                 
+            </div>
+            <div class="forward-icon-container">
+                <img class="forward-icon" src="assests/icons/icons8-arrow-material-filled/icons8-arrow-96.png" alt="forward icon">
+                <div class="forward-modal">
+                    <div class="forward-modal-content">
+                        <img src="assests/Gif Part 1/Moving fast.gif" alt="forward-gif">
+                    </div>
+                </div>                
+            </div>
+            <div class="globe-icon-container">
+                <img class="globe-icon" src="assests/icons/icons8-globe-material-filled/icons8-globe-96.png" alt="globe icon">
+                <div class="globe-modal">
+                    <div class="globe-modal-content">
+                        <img src="assests/Gif Part 4/Focus on long term impact.gif" alt="globe-gif">
+                    </div>
+                </div>                 
+            </div>
+            <div class="crowd-icon-container">
+                <img class="crowd-icon" src="assests/icons/icons8-crowd-material-filled/icons8-crowd-96.png" alt="crowd icon">
+                <div class="crowd-modal">
+                    <div class="crowd-modal-content">
+                        <img src="assests/Gif Part 1/be direct and respect your colleague.gif" alt="crowd-gif">
+                    </div>
+                </div>                 
+            </div>
+            <div class="gadget-icon-container">
+                <img class="gadget-icon" src="assests/icons/icons8-oculus-rift-material-filled/icons8-oculus-rift-96.png" alt="gadget icon">
+                <div class="gadget-modal">
+                    <div class="gadget-modal-content">
+                        <img src="assests/Gif Part 1/Live in the future.gif" alt="gadget-gif">
+                    </div>
+                </div>                 
+            </div>
+            <div class="kpmg-icon-container">
+                <img class="kpmg-icon" src="assests/720KPMG_logo_2.svg" alt="Kpmg icon">
+            </div>           
+        </div>
+    </main>
+
+   
+    <div id="video-modal" class="slider-box">
+        <div class="slider-box-content">
+        <span class="close">&times;</span>
+        <div class="video-slider">
+            <div class="slider">
+                <img src="assests/icons/icons8-back-to-ios-filled/icons8-back-to-100.png" onclick="plusSlides(-1)" alt="Back to">
+                <div class="video-slideshow">
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 6</div>
+                        <video class="video-slide" controls>
+                            <source src="assests/video/people.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 6</div>
+                        <video class="video-slide" controls>
+                            <source src="assests/video/Build awesome things.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 6</div>
+                        <video class="video-slide" controls>
+                            <source src="assests/video/MOving fast.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 6</div>
+                        <video class="video-slide" controls>
+                            <source src="assests/video/Focus on long term impact.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 6</div>
+                        <video class="video-slide" controls >
+                            <source src="assests/video/be direct and respect your colleague.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                      
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 6</div>
+                        <video class="video-slide" controls>
+                            <source src="assests/video/Live in the future.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <img src="assests/icons/icons8-next-page-ios-filled/icons8-next-page-100.png" onclick="plusSlides(1)" alt="Next">
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+              </div>
+        </div>
+        </div>
+  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
